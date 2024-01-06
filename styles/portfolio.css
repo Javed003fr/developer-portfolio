@@ -42,6 +42,10 @@ body {
   font-weight: 400;
 }
 
+.btn-primary, .btn-secondary {
+  cursor: pointer;
+}
+
 /* Nav related styles */
 nav {
   display: flex;
@@ -228,7 +232,33 @@ main section {
 /* Footer Style */
 footer {
   display: flex;
+  gap: 100px;
   background: #FFF8F3;
   padding: 130px 200px;
   margin-top: 130px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+.section-description {
+  text-align: left;
+}
+
+.social-links a {
+  margin-right: 25px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 30px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #757575;
+  width: 100%;
 }
